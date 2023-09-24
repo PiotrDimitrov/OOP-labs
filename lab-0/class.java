@@ -16,11 +16,11 @@ public class GameObject {
     }
 
     public static void main(String[] args) {
-        // Create instances of the GameObject class
+ 
         GameObject obj1 = new GameObject("Object1", "standing", 5, "red");
         GameObject obj2 = new GameObject("Object2", "moving", 10, "blue");
 
-        // Inform the user about the state of the objects
+        
         obj1.informState();
         obj2.informState();
     }
